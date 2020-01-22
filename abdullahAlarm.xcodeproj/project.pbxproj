@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86627F123D6DB7E000B37B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86627F023D6DB7E000B37B2 /* AppDelegate.swift */; };
+		B86627F323D6DB7E000B37B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86627F223D6DB7E000B37B2 /* SceneDelegate.swift */; };
+		B86627F823D6DB7E000B37B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86627F623D6DB7E000B37B2 /* Main.storyboard */; };
+		B86627FB23D6DB7E000B37B2 /* abdullahAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B86627F923D6DB7E000B37B2 /* abdullahAlarm.xcdatamodeld */; };
+		B86627FD23D6DB82000B37B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86627FC23D6DB82000B37B2 /* Assets.xcassets */; };
+		B866280023D6DB82000B37B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86627FE23D6DB82000B37B2 /* LaunchScreen.storyboard */; };
+		B866280B23D6DB82000B37B2 /* abdullahAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866280A23D6DB82000B37B2 /* abdullahAlarmTests.swift */; };
+		B866281623D6DB82000B37B2 /* abdullahAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866281523D6DB82000B37B2 /* abdullahAlarmUITests.swift */; };
+		B866282423D6E3D9000B37B2 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866282323D6E3D9000B37B2 /* Reminder.swift */; };
+		B866282623D6F107000B37B2 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866282523D6F107000B37B2 /* ReminderTableViewController.swift */; };
+		B866282823D70697000B37B2 /* AddReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866282723D70697000B37B2 /* AddReminderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B866280723D6DB82000B37B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86627E523D6DB7E000B37B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86627EC23D6DB7E000B37B2;
+			remoteInfo = abdullahAlarm;
+		};
+		B866281223D6DB82000B37B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86627E523D6DB7E000B37B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86627EC23D6DB7E000B37B2;
+			remoteInfo = abdullahAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B86627ED23D6DB7E000B37B2 /* abdullahAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = abdullahAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86627F023D6DB7E000B37B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B86627F223D6DB7E000B37B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B86627F723D6DB7E000B37B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B86627FA23D6DB7E000B37B2 /* abdullahAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = abdullahAlarm.xcdatamodel; sourceTree = "<group>"; };
+		B86627FC23D6DB82000B37B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86627FF23D6DB82000B37B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B866280123D6DB82000B37B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B866280623D6DB82000B37B2 /* abdullahAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abdullahAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B866280A23D6DB82000B37B2 /* abdullahAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abdullahAlarmTests.swift; sourceTree = "<group>"; };
+		B866280C23D6DB82000B37B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B866281123D6DB82000B37B2 /* abdullahAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abdullahAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B866281523D6DB82000B37B2 /* abdullahAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abdullahAlarmUITests.swift; sourceTree = "<group>"; };
+		B866281723D6DB82000B37B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B866282323D6E3D9000B37B2 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		B866282523D6F107000B37B2 /* ReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewController.swift; sourceTree = "<group>"; };
+		B866282723D70697000B37B2 /* AddReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B86627EA23D6DB7E000B37B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B866280323D6DB82000B37B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B866280E23D6DB82000B37B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86627E423D6DB7E000B37B2 = {
+			isa = PBXGroup;
+			children = (
+				B86627EF23D6DB7E000B37B2 /* abdullahAlarm */,
+				B866280923D6DB82000B37B2 /* abdullahAlarmTests */,
+				B866281423D6DB82000B37B2 /* abdullahAlarmUITests */,
+				B86627EE23D6DB7E000B37B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B86627EE23D6DB7E000B37B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B86627ED23D6DB7E000B37B2 /* abdullahAlarm.app */,
+				B866280623D6DB82000B37B2 /* abdullahAlarmTests.xctest */,
+				B866281123D6DB82000B37B2 /* abdullahAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86627EF23D6DB7E000B37B2 /* abdullahAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				B86627F023D6DB7E000B37B2 /* AppDelegate.swift */,
+				B86627F223D6DB7E000B37B2 /* SceneDelegate.swift */,
+				B866282323D6E3D9000B37B2 /* Reminder.swift */,
+				B866282523D6F107000B37B2 /* ReminderTableViewController.swift */,
+				B866282723D70697000B37B2 /* AddReminderViewController.swift */,
+				B86627F623D6DB7E000B37B2 /* Main.storyboard */,
+				B86627FC23D6DB82000B37B2 /* Assets.xcassets */,
+				B86627FE23D6DB82000B37B2 /* LaunchScreen.storyboard */,
+				B866280123D6DB82000B37B2 /* Info.plist */,
+				B86627F923D6DB7E000B37B2 /* abdullahAlarm.xcdatamodeld */,
+			);
+			path = abdullahAlarm;
+			sourceTree = "<group>";
+		};
+		B866280923D6DB82000B37B2 /* abdullahAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				B866280A23D6DB82000B37B2 /* abdullahAlarmTests.swift */,
+				B866280C23D6DB82000B37B2 /* Info.plist */,
+			);
+			path = abdullahAlarmTests;
+			sourceTree = "<group>";
+		};
+		B866281423D6DB82000B37B2 /* abdullahAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B866281523D6DB82000B37B2 /* abdullahAlarmUITests.swift */,
+				B866281723D6DB82000B37B2 /* Info.plist */,
+			);
+			path = abdullahAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B86627EC23D6DB7E000B37B2 /* abdullahAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B866281A23D6DB82000B37B2 /* Build configuration list for PBXNativeTarget "abdullahAlarm" */;
+			buildPhases = (
+				B86627E923D6DB7E000B37B2 /* Sources */,
+				B86627EA23D6DB7E000B37B2 /* Frameworks */,
+				B86627EB23D6DB7E000B37B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = abdullahAlarm;
+			productName = abdullahAlarm;
+			productReference = B86627ED23D6DB7E000B37B2 /* abdullahAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B866280523D6DB82000B37B2 /* abdullahAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B866281D23D6DB82000B37B2 /* Build configuration list for PBXNativeTarget "abdullahAlarmTests" */;
+			buildPhases = (
+				B866280223D6DB82000B37B2 /* Sources */,
+				B866280323D6DB82000B37B2 /* Frameworks */,
+				B866280423D6DB82000B37B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B866280823D6DB82000B37B2 /* PBXTargetDependency */,
+			);
+			name = abdullahAlarmTests;
+			productName = abdullahAlarmTests;
+			productReference = B866280623D6DB82000B37B2 /* abdullahAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B866281023D6DB82000B37B2 /* abdullahAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B866282023D6DB82000B37B2 /* Build configuration list for PBXNativeTarget "abdullahAlarmUITests" */;
+			buildPhases = (
+				B866280D23D6DB82000B37B2 /* Sources */,
+				B866280E23D6DB82000B37B2 /* Frameworks */,
+				B866280F23D6DB82000B37B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B866281323D6DB82000B37B2 /* PBXTargetDependency */,
+			);
+			name = abdullahAlarmUITests;
+			productName = abdullahAlarmUITests;
+			productReference = B866281123D6DB82000B37B2 /* abdullahAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86627E523D6DB7E000B37B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "abdullah ";
+				TargetAttributes = {
+					B86627EC23D6DB7E000B37B2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B866280523D6DB82000B37B2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B86627EC23D6DB7E000B37B2;
+					};
+					B866281023D6DB82000B37B2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B86627EC23D6DB7E000B37B2;
+					};
+				};
+			};
+			buildConfigurationList = B86627E823D6DB7E000B37B2 /* Build configuration list for PBXProject "abdullahAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86627E423D6DB7E000B37B2;
+			productRefGroup = B86627EE23D6DB7E000B37B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86627EC23D6DB7E000B37B2 /* abdullahAlarm */,
+				B866280523D6DB82000B37B2 /* abdullahAlarmTests */,
+				B866281023D6DB82000B37B2 /* abdullahAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B86627EB23D6DB7E000B37B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B866280023D6DB82000B37B2 /* LaunchScreen.storyboard in Resources */,
+				B86627FD23D6DB82000B37B2 /* Assets.xcassets in Resources */,
+				B86627F823D6DB7E000B37B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B866280423D6DB82000B37B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B866280F23D6DB82000B37B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B86627E923D6DB7E000B37B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86627FB23D6DB7E000B37B2 /* abdullahAlarm.xcdatamodeld in Sources */,
+				B86627F123D6DB7E000B37B2 /* AppDelegate.swift in Sources */,
+				B86627F323D6DB7E000B37B2 /* SceneDelegate.swift in Sources */,
+				B866282623D6F107000B37B2 /* ReminderTableViewController.swift in Sources */,
+				B866282823D70697000B37B2 /* AddReminderViewController.swift in Sources */,
+				B866282423D6E3D9000B37B2 /* Reminder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B866280223D6DB82000B37B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B866280B23D6DB82000B37B2 /* abdullahAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B866280D23D6DB82000B37B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B866281623D6DB82000B37B2 /* abdullahAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B866280823D6DB82000B37B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86627EC23D6DB7E000B37B2 /* abdullahAlarm */;
+			targetProxy = B866280723D6DB82000B37B2 /* PBXContainerItemProxy */;
+		};
+		B866281323D6DB82000B37B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86627EC23D6DB7E000B37B2 /* abdullahAlarm */;
+			targetProxy = B866281223D6DB82000B37B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B86627F623D6DB7E000B37B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86627F723D6DB7E000B37B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B86627FE23D6DB82000B37B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86627FF23D6DB82000B37B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B866281823D6DB82000B37B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B866281923D6DB82000B37B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B866281B23D6DB82000B37B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4438DCVBWY;
+				INFOPLIST_FILE = abdullahAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.abdullahAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B866281C23D6DB82000B37B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4438DCVBWY;
+				INFOPLIST_FILE = abdullahAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.abdullahAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B866281E23D6DB82000B37B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4438DCVBWY;
+				INFOPLIST_FILE = abdullahAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.abdullahAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/abdullahAlarm.app/abdullahAlarm";
+			};
+			name = Debug;
+		};
+		B866281F23D6DB82000B37B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4438DCVBWY;
+				INFOPLIST_FILE = abdullahAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.abdullahAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/abdullahAlarm.app/abdullahAlarm";
+			};
+			name = Release;
+		};
+		B866282123D6DB82000B37B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4438DCVBWY;
+				INFOPLIST_FILE = abdullahAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.abdullahAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = abdullahAlarm;
+			};
+			name = Debug;
+		};
+		B866282223D6DB82000B37B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4438DCVBWY;
+				INFOPLIST_FILE = abdullahAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.abdullahAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = abdullahAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B86627E823D6DB7E000B37B2 /* Build configuration list for PBXProject "abdullahAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B866281823D6DB82000B37B2 /* Debug */,
+				B866281923D6DB82000B37B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B866281A23D6DB82000B37B2 /* Build configuration list for PBXNativeTarget "abdullahAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B866281B23D6DB82000B37B2 /* Debug */,
+				B866281C23D6DB82000B37B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B866281D23D6DB82000B37B2 /* Build configuration list for PBXNativeTarget "abdullahAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B866281E23D6DB82000B37B2 /* Debug */,
+				B866281F23D6DB82000B37B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B866282023D6DB82000B37B2 /* Build configuration list for PBXNativeTarget "abdullahAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B866282123D6DB82000B37B2 /* Debug */,
+				B866282223D6DB82000B37B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B86627F923D6DB7E000B37B2 /* abdullahAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B86627FA23D6DB7E000B37B2 /* abdullahAlarm.xcdatamodel */,
+			);
+			currentVersion = B86627FA23D6DB7E000B37B2 /* abdullahAlarm.xcdatamodel */;
+			path = abdullahAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B86627E523D6DB7E000B37B2 /* Project object */;
+}
